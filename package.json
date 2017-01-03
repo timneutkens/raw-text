@@ -1,0 +1,14 @@
+{
+  "name": "raw-text",
+  "version": "1.0.0",
+  "description": "Parse raw request body as text",
+  "main": "index.js",
+  "files": ["index.js"],
+  "repository": "timneutkens/raw-text",
+  "author": "Tim Neutkens",
+  "license": "MIT",
+  "dependencies": {
+    "media-typer": "^0.3.0",
+    "raw-body": "^2.2.0"
+  }
+}
