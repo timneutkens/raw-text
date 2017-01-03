@@ -44,3 +44,12 @@ server.listen(8000)
 - Buffers the incoming body, calls `toString()` and returns it.
 - limit is how much data is aggregated before parsing at max. It can be a `Number` of bytes or [a string](https://www.npmjs.com/package/bytes) like `'1mb'`.
 - The `Promise` is rejected when an error occurs, it is your responsibility to catch it.
+
+
+#### Background
+
+Requested feature for [Micro](https://www.github.com/zeit/micro) in pull request [116](https://github.com/zeit/micro/pull/116) and [118](https://github.com/zeit/micro/pull/118).
+
+#### Credits to
+
+[Jeremy Morrell](https://github.com/jmorrell) and [Sam Garson](https://github.com/samtgarson) for explaining the need for this package.
